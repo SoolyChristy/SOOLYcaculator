@@ -15,6 +15,7 @@
 		EF0F485A1CFC18B700438B4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF0F48581CFC18B700438B4F /* LaunchScreen.storyboard */; };
 		EF0F48651CFC18B700438B4F /* SOOLYcaculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0F48641CFC18B700438B4F /* SOOLYcaculatorTests.m */; };
 		EF0F48701CFC18B700438B4F /* SOOLYcaculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0F486F1CFC18B700438B4F /* SOOLYcaculatorUITests.m */; };
+		EF2D67971D0D8D1F0066C6FB /* myButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2D67961D0D8D1F0066C6FB /* myButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		EF0F486B1CFC18B700438B4F /* SOOLYcaculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SOOLYcaculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF0F486F1CFC18B700438B4F /* SOOLYcaculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SOOLYcaculatorUITests.m; sourceTree = "<group>"; };
 		EF0F48711CFC18B700438B4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF2D67951D0D8D1F0066C6FB /* myButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myButton.h; sourceTree = "<group>"; };
+		EF2D67961D0D8D1F0066C6FB /* myButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		EF0F48491CFC18B700438B4F /* SOOLYcaculator */ = {
 			isa = PBXGroup;
 			children = (
+				EF2D67951D0D8D1F0066C6FB /* myButton.h */,
+				EF2D67961D0D8D1F0066C6FB /* myButton.m */,
 				EF0F484D1CFC18B700438B4F /* AppDelegate.h */,
 				EF0F484E1CFC18B700438B4F /* AppDelegate.m */,
 				EF0F48501CFC18B700438B4F /* ViewController.h */,
@@ -273,6 +278,7 @@
 				EF0F48521CFC18B700438B4F /* ViewController.m in Sources */,
 				EF0F484F1CFC18B700438B4F /* AppDelegate.m in Sources */,
 				EF0F484C1CFC18B700438B4F /* main.m in Sources */,
+				EF2D67971D0D8D1F0066C6FB /* myButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +504,7 @@
 				EF0F48761CFC18B700438B4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF0F48771CFC18B700438B4F /* Build configuration list for PBXNativeTarget "SOOLYcaculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				EF0F48791CFC18B700438B4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF0F487A1CFC18B700438B4F /* Build configuration list for PBXNativeTarget "SOOLYcaculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				EF0F487C1CFC18B700438B4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
